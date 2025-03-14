@@ -1,11 +1,13 @@
 # Write a Python program to remove elements from a list using pop() and remove().
 
-# Remove method to remove specific element from list
-mylist = ["Apple", "Banana", "Orange", "Grapes"]
-mylist.remove("Banana")     # In argument value is present element in list
-print(mylist)
+a = ["Apple", "Grapes", "Banana", "Orange"]
+a.remove("Apple")
+print(a)
 
-# Remove element from list using pop() method
-my_list = [10, 40, 30, 50]
-my_list.pop()       # pop() method remove element from last position
-print(my_list)
+b = ["Apple", "Banana", "Grapes", "Watermelon", "Mango"]
+b.pop()
+print(b)        # Remove last element from list
+
+c = ["Banana", "Kiwi", "Pineapple", "Boysenberry"]
+c.pop(2)
+print(c)        # Remove element fron given specify element
